@@ -1,7 +1,9 @@
 package com.example.carmen.juegodecartas;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -16,7 +18,6 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button sejuegasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +27,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        sejuegasi =(Button)findViewById(R.id.sejuegasi);
-
-        sejuegasi.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent sejuegasi = new Intent(MainActivity.this, Main2Activity.class);
-                startActivity(sejuegasi);
-            }
-        });
 
         final ImageButton boton = (ImageButton)findViewById(R.id.boton);
         final ArrayList<Integer> list = new ArrayList<Integer>();
@@ -58,9 +50,22 @@ public class MainActivity extends AppCompatActivity {
                 int position = new Random().nextInt(list.size());
                 boton.setImageResource(list.get(position));
                 list.remove(position);
-
             }
         });
+
+        if (list == null){
+            AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+            alertDialog.setTitle("Felicidades!");
+            alertDialog.setMessage("El juego ha terminado, ¿qué deseas hacer?");
+            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+            alertDialog.show();
+
+        }
     }
 
     @Override
