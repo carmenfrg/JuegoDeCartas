@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -62,14 +63,14 @@ public class MainActivity extends AppCompatActivity {
         list.add(R.drawable.c45); list.add(R.drawable.c46); list.add(R.drawable.c47); list.add(R.drawable.c48);
         list.add(R.drawable.c49); list.add(R.drawable.c50); list.add(R.drawable.c51); list.add(R.drawable.c52);
 
-        boton.setOnClickListener(new View.OnClickListener() {
+         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                int position = new Random().nextInt(list.size());
+                int position = new Random().nextInt(list.size()-1);
                 boton.setImageResource(list.get(position));
 
-                int max = 52;
+                int max = 51;
                 List<Integer> indices = new ArrayList<Integer>(max);
                 for(int c = 0; c < max; ++c)
                 {
@@ -77,67 +78,67 @@ public class MainActivity extends AppCompatActivity {
                 }
                 int ran = new Random().nextInt(indices.size());
 
-                if(position == 0 || position == 1 || position == 2 || position == 3){
+                if(ran == 0 || ran == 1 || ran == 2 || ran == 3){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(uno);
                     Dialog d = b.create();
                     d.show();
-                } else if (position == 4 || position == 5 || position == 6 || position == 7){
+                } else if (ran == 4 || ran == 5 || ran == 6 || ran == 7){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(dos);
                     Dialog d = b.create();
                     d.show();
-                }else if (position == 8 || position == 9 || position == 10 || position == 11){
+                }else if (ran == 8 || ran == 9 || ran == 10 || ran == 11){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(tres);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 12 || position == 13 || position == 15 || position == 16){
+                }else if(ran == 12 || ran == 13 || ran == 15 || ran == 16){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(cuatro);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 17 || position == 18 || position == 19 || position == 20){
+                }else if(ran == 17 || ran == 18 || ran == 19 || ran == 20){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(cinco);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 21 || position == 22 || position == 23 || position == 24){
+                }else if(ran == 21 || ran == 22 || ran == 23 || ran == 24){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(seis);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 25 || position == 26 || position == 27 || position == 28){
+                }else if(ran == 25 || ran == 26 || ran == 27 || ran == 28){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(siete);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 29 || position == 30 || position == 31 || position == 32){
+                }else if(ran == 29 || ran == 30 || ran == 31 || ran == 32){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(ocho);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 33 || position == 34 || position == 35 || position == 37){
+                }else if(ran == 33 || ran == 34 || ran == 35 || ran == 37){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(nueve);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 38 || position == 39 || position == 40 || position == 41){
+                }else if(ran == 38 || ran == 39 || ran == 40 || ran == 41){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(diez);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 42 || position == 43 || position == 44 || position == 45){
+                }else if(ran == 42 || ran == 43 || ran == 44 || ran == 45){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(once);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 46 || position == 47 || position == 48 || position == 49){
+                }else if(ran == 46 || ran == 47 || ran == 48 || ran == 49){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(doce);
                     Dialog d = b.create();
                     d.show();
-                }else if(position == 14 || position == 36 || position == 50 || position == 51){
+                }else if(ran == 14 || ran == 36 || ran == 50 || ran == 51){
                     AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
                     b.setMessage(trece);
                     Dialog d = b.create();
