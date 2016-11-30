@@ -69,16 +69,19 @@ public class MainActivity extends AppCompatActivity {
                     AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
                     alertDialog.setTitle("Felicidades!");
                     alertDialog.setMessage("Se ha terminado la baraja, ¿qué deseas hacer?");
-                    alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+
+                    alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Rebarajear",
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {
-                                    dialog.dismiss();
+                                    Intent rebarajear = new Intent(MainActivity.this, MainActivity.class);
+                                    startActivity(rebarajear);
                                 }
                             });
-                    alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                    alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Ir a Menu",
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {
-                                    dialog.dismiss();
+                                    Intent menu = new Intent(MainActivity.this, Principal.class);
+                                    startActivity(menu);
                                 }
                             });
                     alertDialog.show();
