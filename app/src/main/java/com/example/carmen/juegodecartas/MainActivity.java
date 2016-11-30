@@ -70,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
 
                 indices.remove(ran);
                 list.remove(position);
-
                 if (list.isEmpty()){
                     AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
                     alertDialog.setTitle("Felicidades!");
