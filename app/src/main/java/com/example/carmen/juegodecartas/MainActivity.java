@@ -34,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
         final String[] myString = res.getStringArray(R.array.reto_uno);
 
-
-
         final ImageButton boton = (ImageButton)findViewById(R.id.boton);
         final ArrayList<Integer> list = new ArrayList<Integer>();
         list.add(R.drawable.c1); list.add(R.drawable.c2);list.add(R.drawable.c3); list.add(R.drawable.c4);
@@ -49,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
         list.add(R.drawable.c41); list.add(R.drawable.c42); list.add(R.drawable.c43); list.add(R.drawable.c44); list.add(R.drawable.c45);
         list.add(R.drawable.c46); list.add(R.drawable.c47); list.add(R.drawable.c48); list.add(R.drawable.c49); list.add(R.drawable.c50);
         list.add(R.drawable.c51); list.add(R.drawable.c52); list.add( R.drawable.c15);
-
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,23 +71,24 @@ public class MainActivity extends AppCompatActivity {
                 indices.remove(ran);
                 list.remove(position);
 
+                if (list.isEmpty()){
+                    AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+                    alertDialog.setTitle("Felicidades!");
+                    alertDialog.setMessage("El juego ha terminado, ¿qué deseas hacer?");
+                    alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.dismiss();
+                                }
+                            });
+                    alertDialog.show();
+                }
+
             }
         });
 
-        if (list == null){
-            AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-            alertDialog.setTitle("Felicidades!");
-            alertDialog.setMessage("El juego ha terminado, ¿qué deseas hacer?");
-            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.dismiss();
-                        }
-                    });
-            alertDialog.show();
-
         }
-    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
