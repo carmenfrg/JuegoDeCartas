@@ -1,7 +1,9 @@
 package com.example.carmen.juegodecartas;
 
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +18,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import static android.R.id.list;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -25,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Resources res = getResources();
+
+        final String[] myString = res.getStringArray(R.array.reto_uno);
 
 
 
@@ -49,7 +57,23 @@ public class MainActivity extends AppCompatActivity {
 
                 int position = new Random().nextInt(list.size());
                 boton.setImageResource(list.get(position));
+
+                int max = 52;
+                List<Integer> indices = new ArrayList<Integer>(max);
+                for(int c = 0; c < max; ++c)
+                {
+                    indices.add(c);
+                }
+                int ran = new Random().nextInt(indices.size());
+
+                AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
+                b.setMessage(myString[ran]);
+                Dialog d = b.create();
+                d.show();
+
+                indices.remove(ran);
                 list.remove(position);
+
             }
         });
 

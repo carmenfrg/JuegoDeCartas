@@ -1,4 +1,172 @@
 <resources>
     <string name="app_name">cardFIT</string>
     <string name="action_settings">Salir</string>
+
+    <string-array name="reto_uno">
+        <item>PALABRA PROHIBIDA. La persona que tomó la carta escoge una palabra que los jugadores no podrán decir
+            hasta que salga otro 2 y la palabra se cambie. Las opciones más comunes son “Sí”, “No” y “O sea”. ** Castigo: 15 sentadillas **</item>
+        <item>VOY A LLEVAR AL PICNIC.Comenzando por la persona que sacó la carta cada uno deberá escoger un objeto que llevarían a un picnic.
+            El nombre del objeto debe comenzar con la letra del alfabeto que les corresponda, por ejemplo, la persona que sacó la carta
+            diría “Voy a llevar al picnic: Amigos”. El siguiente jugador deberá repetir el objeto anterior y agregar otro con la
+            siguiente letra del abecedario. “Voy a llevar al picnic: Amigos, Bebes”. La tercera persona llevaría “Amigos, Bebidas y
+            Cerezas”, por ejemplo. El juego se acaba hasta que alguien se equivoca. ** Castigo: 10 lagartijas ** </item>
+        <item>CARICATURAS. Todos cantan una cancioncita que empieza: “Cari, cari, caricaturas, nombres de:” y la persona que
+            sacó la carta selecciona la categoría de la que van a hablar. Pueden ser razas de perros, marcas de coches, personajes
+            de una serie… ¡las posibilidades son infinitas! Cada persona deberá entonces nombrar algo que entre dentro de la categoría.
+            El juego termina cuando alguien se equivoca. ** Castigo: 20 Abdominales **</item>
+        <item>PALABRAS ENCADENADAS. En el sentido de las agujas del reloj, cada jugador debe decir una palabra
+            (existente y en castellano) que comience con la misma sílaba con la que terminaba la palabra que dijo el anterior jugador.
+            Ejemplo: Casa, saco, comer, mercado, domingo…, al principio no es muy difícil, pero cuando se llevan unos cuantos turnos,
+            ya se sabe. ** Castigo: 15 lagartijas **</item>
+        <item>FRUTITAS. El juego es ridículamente simple. Cada persona selecciona una fruta antes de comenzar.
+            El que sacó la carta deberá llamar a otra fruta en diminutivo, todo sin enseñar los dientes (tienes que cubrirlos
+            completamente con los labios) con este formato (ej.) “Platanito llamando a manzanita”. En este juego el que pierde es
+            el que se ríe y muestra los dientes. ** Castigo: 10 sentadillas **</item>
+        <item>REGLA. Quien saca la carta pone una regla que no se puede romper hasta que saquen otro ocho. Algunos ejemplos serían
+            que nadie se puede sentar o no pueden dejar la mesa. ** Castigo: 10 abdominales **</item>
+        <item>7-PUM. Uno de los más complicados. El 7 Pum se trata de contar, pero sin decir nunca el número 7 ni sus múltiplos.
+            En lugar del 7 deberás decir Pum y el juego cambia de sentido. Comienza la persona que sacó la carta diciendo en voz alta
+            el número uno. Le sigue la persona de su derecha con el número dos y así sucesivamente hasta llegar al 7. El número 7 no
+            se dice, en su lugar la persona deberá decir “Pum” y cambiar el sentido de la numeración hacia la izquierda. Los números
+            que no se dicen son, por poner algunos, 7, 14, 17, 21, 27, 28… ** Castigo: 10 lagartijas **</item>
+        <item>UN LIMÓN MEDIO LIMÓN. Cada jugador se asigna un número. El primer jugador dice “unlimonmediolimon(X)limones” donde (X)
+            es el número del siguiente concursante elegido al azar por el primero. Sucesivamente sería por ejemplo:
+            “unlimonmediolimontreslimones” y el tres diría “treslimonesmediolimonsietelimones” y así hasta que uno se trabe.
+            Se tiene que hacer de forma ágil, es decir de corrido. ** Castigo: 20 sentadillas **</item>
+        <item>HACE LAGARTIJAS EL DE LA IZQUIERDA. La persona que está a la izquierda de quien sacó la carta deberá hacer lagartijas
+            (Obligatorias). ** Castigo:5 lagartijas **</item>
+        <item>HACE SENTADILLAS EL DE LA DERECHA. La persona que está a la derecha de quien sacó la carta deberá hacer lagartijas
+            (Obligatorias). ** Castigo: 10 sentadillas **</item>
+        <item>HACEN EJERCICIO TODOS. Todos hacen ejercicio (Obligatorio) ** Castigo: Tu escoges tu ejercicio (Abdominales, lagartijas
+            y sentadillas) **</item>
+        <item>HACES EJERCICIO TÚ. La persona que saque la carta, deberá hacer ejercicio (Obligatorio). ** Castigo: Tu escoges tu
+            ejercicio (Abdominales, lagartijas y sentadillas) **</item>
+        <item>¡TÚ ESCOGES EL RETO! La persona que saque la carta, deberá escoger el reto que deberá hacer otro participante del juego.
+            ¡Recuerda que tienen que ser ejercicios físicos! ** Castigo: Tu escoges tu ejercicio (Abdominales,
+            lagartijas y sentadillas) **</item>
+        <item>PALABRA PROHIBIDA. La persona que tomó la carta escoge una palabra que los jugadores no podrán decir
+            hasta que salga otro 2 y la palabra se cambie. Las opciones más comunes son “Sí”, “No” y “O sea”. ** Castigo: 15 sentadillas **</item>
+        <item>VOY A LLEVAR AL PICNIC.Comenzando por la persona que sacó la carta cada uno deberá escoger un objeto que llevarían a un picnic.
+            El nombre del objeto debe comenzar con la letra del alfabeto que les corresponda, por ejemplo, la persona que sacó la carta
+            diría “Voy a llevar al picnic: Amigos”. El siguiente jugador deberá repetir el objeto anterior y agregar otro con la
+            siguiente letra del abecedario. “Voy a llevar al picnic: Amigos, Bebes”. La tercera persona llevaría “Amigos, Bebidas y
+            Cerezas”, por ejemplo. El juego se acaba hasta que alguien se equivoca. ** Castigo: 10 lagartijas ** </item>
+        <item>CARICATURAS. Todos cantan una cancioncita que empieza: “Cari, cari, caricaturas, nombres de:” y la persona que
+            sacó la carta selecciona la categoría de la que van a hablar. Pueden ser razas de perros, marcas de coches, personajes
+            de una serie… ¡las posibilidades son infinitas! Cada persona deberá entonces nombrar algo que entre dentro de la categoría.
+            El juego termina cuando alguien se equivoca. ** Castigo: 20 Abdominales **</item>
+        <item>PALABRAS ENCADENADAS. En el sentido de las agujas del reloj, cada jugador debe decir una palabra
+            (existente y en castellano) que comience con la misma sílaba con la que terminaba la palabra que dijo el anterior jugador.
+            Ejemplo: Casa, saco, comer, mercado, domingo…, al principio no es muy difícil, pero cuando se llevan unos cuantos turnos,
+            ya se sabe. ** Castigo: 15 lagartijas **</item>
+        <item>FRUTITAS. El juego es ridículamente simple. Cada persona selecciona una fruta antes de comenzar.
+            El que sacó la carta deberá llamar a otra fruta en diminutivo, todo sin enseñar los dientes (tienes que cubrirlos
+            completamente con los labios) con este formato (ej.) “Platanito llamando a manzanita”. En este juego el que pierde es
+            el que se ríe y muestra los dientes. ** Castigo: 10 sentadillas **</item>
+        <item>REGLA. Quien saca la carta pone una regla que no se puede romper hasta que saquen otro ocho. Algunos ejemplos serían
+            que nadie se puede sentar o no pueden dejar la mesa. ** Castigo: 10 abdominales **</item>
+        <item>7-PUM. Uno de los más complicados. El 7 Pum se trata de contar, pero sin decir nunca el número 7 ni sus múltiplos.
+            En lugar del 7 deberás decir Pum y el juego cambia de sentido. Comienza la persona que sacó la carta diciendo en voz alta
+            el número uno. Le sigue la persona de su derecha con el número dos y así sucesivamente hasta llegar al 7. El número 7 no
+            se dice, en su lugar la persona deberá decir “Pum” y cambiar el sentido de la numeración hacia la izquierda. Los números
+            que no se dicen son, por poner algunos, 7, 14, 17, 21, 27, 28… ** Castigo: 10 lagartijas **</item>
+        <item>UN LIMÓN MEDIO LIMÓN. Cada jugador se asigna un número. El primer jugador dice “unlimonmediolimon(X)limones” donde (X)
+            es el número del siguiente concursante elegido al azar por el primero. Sucesivamente sería por ejemplo:
+            “unlimonmediolimontreslimones” y el tres diría “treslimonesmediolimonsietelimones” y así hasta que uno se trabe.
+            Se tiene que hacer de forma ágil, es decir de corrido. ** Castigo: 20 sentadillas **</item>
+        <item>HACE LAGARTIJAS EL DE LA IZQUIERDA. La persona que está a la izquierda de quien sacó la carta deberá hacer lagartijas
+            (Obligatorias). ** Castigo:5 lagartijas **</item>
+        <item>HACE SENTADILLAS EL DE LA DERECHA. La persona que está a la derecha de quien sacó la carta deberá hacer lagartijas
+            (Obligatorias). ** Castigo: 10 sentadillas **</item>
+        <item>HACEN EJERCICIO TODOS. Todos hacen ejercicio (Obligatorio) ** Castigo: Tu escoges tu ejercicio (Abdominales, lagartijas
+            y sentadillas) **</item>
+        <item>HACES EJERCICIO TÚ. La persona que saque la carta, deberá hacer ejercicio (Obligatorio). ** Castigo: Tu escoges tu
+            ejercicio (Abdominales, lagartijas y sentadillas) **</item>
+        <item>¡TÚ ESCOGES EL RETO! La persona que saque la carta, deberá escoger el reto que deberá hacer otro participante del juego.
+            ¡Recuerda que tienen que ser ejercicios físicos! ** Castigo: Tu escoges tu ejercicio (Abdominales,
+            lagartijas y sentadillas) **</item>
+        <item>PALABRA PROHIBIDA. La persona que tomó la carta escoge una palabra que los jugadores no podrán decir
+            hasta que salga otro 2 y la palabra se cambie. Las opciones más comunes son “Sí”, “No” y “O sea”. ** Castigo: 15 sentadillas **</item>
+        <item>VOY A LLEVAR AL PICNIC.Comenzando por la persona que sacó la carta cada uno deberá escoger un objeto que llevarían a un picnic.
+            El nombre del objeto debe comenzar con la letra del alfabeto que les corresponda, por ejemplo, la persona que sacó la carta
+            diría “Voy a llevar al picnic: Amigos”. El siguiente jugador deberá repetir el objeto anterior y agregar otro con la
+            siguiente letra del abecedario. “Voy a llevar al picnic: Amigos, Bebes”. La tercera persona llevaría “Amigos, Bebidas y
+            Cerezas”, por ejemplo. El juego se acaba hasta que alguien se equivoca. ** Castigo: 10 lagartijas ** </item>
+        <item>CARICATURAS. Todos cantan una cancioncita que empieza: “Cari, cari, caricaturas, nombres de:” y la persona que
+            sacó la carta selecciona la categoría de la que van a hablar. Pueden ser razas de perros, marcas de coches, personajes
+            de una serie… ¡las posibilidades son infinitas! Cada persona deberá entonces nombrar algo que entre dentro de la categoría.
+            El juego termina cuando alguien se equivoca. ** Castigo: 20 Abdominales **</item>
+        <item>PALABRAS ENCADENADAS. En el sentido de las agujas del reloj, cada jugador debe decir una palabra
+            (existente y en castellano) que comience con la misma sílaba con la que terminaba la palabra que dijo el anterior jugador.
+            Ejemplo: Casa, saco, comer, mercado, domingo…, al principio no es muy difícil, pero cuando se llevan unos cuantos turnos,
+            ya se sabe. ** Castigo: 15 lagartijas **</item>
+        <item>FRUTITAS. El juego es ridículamente simple. Cada persona selecciona una fruta antes de comenzar.
+            El que sacó la carta deberá llamar a otra fruta en diminutivo, todo sin enseñar los dientes (tienes que cubrirlos
+            completamente con los labios) con este formato (ej.) “Platanito llamando a manzanita”. En este juego el que pierde es
+            el que se ríe y muestra los dientes. ** Castigo: 10 sentadillas **</item>
+        <item>REGLA. Quien saca la carta pone una regla que no se puede romper hasta que saquen otro ocho. Algunos ejemplos serían
+            que nadie se puede sentar o no pueden dejar la mesa. ** Castigo: 10 abdominales **</item>
+        <item>7-PUM. Uno de los más complicados. El 7 Pum se trata de contar, pero sin decir nunca el número 7 ni sus múltiplos.
+            En lugar del 7 deberás decir Pum y el juego cambia de sentido. Comienza la persona que sacó la carta diciendo en voz alta
+            el número uno. Le sigue la persona de su derecha con el número dos y así sucesivamente hasta llegar al 7. El número 7 no
+            se dice, en su lugar la persona deberá decir “Pum” y cambiar el sentido de la numeración hacia la izquierda. Los números
+            que no se dicen son, por poner algunos, 7, 14, 17, 21, 27, 28… ** Castigo: 10 lagartijas **</item>
+        <item>UN LIMÓN MEDIO LIMÓN. Cada jugador se asigna un número. El primer jugador dice “unlimonmediolimon(X)limones” donde (X)
+            es el número del siguiente concursante elegido al azar por el primero. Sucesivamente sería por ejemplo:
+            “unlimonmediolimontreslimones” y el tres diría “treslimonesmediolimonsietelimones” y así hasta que uno se trabe.
+            Se tiene que hacer de forma ágil, es decir de corrido. ** Castigo: 20 sentadillas **</item>
+        <item>HACE LAGARTIJAS EL DE LA IZQUIERDA. La persona que está a la izquierda de quien sacó la carta deberá hacer lagartijas
+            (Obligatorias). ** Castigo:5 lagartijas **</item>
+        <item>HACE SENTADILLAS EL DE LA DERECHA. La persona que está a la derecha de quien sacó la carta deberá hacer lagartijas
+            (Obligatorias). ** Castigo: 10 sentadillas **</item>
+        <item>HACEN EJERCICIO TODOS. Todos hacen ejercicio (Obligatorio) ** Castigo: Tu escoges tu ejercicio (Abdominales, lagartijas
+            y sentadillas) **</item>
+        <item>HACES EJERCICIO TÚ. La persona que saque la carta, deberá hacer ejercicio (Obligatorio). ** Castigo: Tu escoges tu
+            ejercicio (Abdominales, lagartijas y sentadillas) **</item>
+        <item>¡TÚ ESCOGES EL RETO! La persona que saque la carta, deberá escoger el reto que deberá hacer otro participante del juego.
+            ¡Recuerda que tienen que ser ejercicios físicos! ** Castigo: Tu escoges tu ejercicio (Abdominales,
+            lagartijas y sentadillas) **</item>
+        <item>PALABRA PROHIBIDA. La persona que tomó la carta escoge una palabra que los jugadores no podrán decir
+            hasta que salga otro 2 y la palabra se cambie. Las opciones más comunes son “Sí”, “No” y “O sea”. ** Castigo: 15 sentadillas **</item>
+        <item>VOY A LLEVAR AL PICNIC.Comenzando por la persona que sacó la carta cada uno deberá escoger un objeto que llevarían a un picnic.
+            El nombre del objeto debe comenzar con la letra del alfabeto que les corresponda, por ejemplo, la persona que sacó la carta
+            diría “Voy a llevar al picnic: Amigos”. El siguiente jugador deberá repetir el objeto anterior y agregar otro con la
+            siguiente letra del abecedario. “Voy a llevar al picnic: Amigos, Bebes”. La tercera persona llevaría “Amigos, Bebidas y
+            Cerezas”, por ejemplo. El juego se acaba hasta que alguien se equivoca. ** Castigo: 10 lagartijas ** </item>
+        <item>CARICATURAS. Todos cantan una cancioncita que empieza: “Cari, cari, caricaturas, nombres de:” y la persona que
+            sacó la carta selecciona la categoría de la que van a hablar. Pueden ser razas de perros, marcas de coches, personajes
+            de una serie… ¡las posibilidades son infinitas! Cada persona deberá entonces nombrar algo que entre dentro de la categoría.
+            El juego termina cuando alguien se equivoca. ** Castigo: 20 Abdominales **</item>
+        <item>PALABRAS ENCADENADAS. En el sentido de las agujas del reloj, cada jugador debe decir una palabra
+            (existente y en castellano) que comience con la misma sílaba con la que terminaba la palabra que dijo el anterior jugador.
+            Ejemplo: Casa, saco, comer, mercado, domingo…, al principio no es muy difícil, pero cuando se llevan unos cuantos turnos,
+            ya se sabe. ** Castigo: 15 lagartijas **</item>
+        <item>FRUTITAS. El juego es ridículamente simple. Cada persona selecciona una fruta antes de comenzar.
+            El que sacó la carta deberá llamar a otra fruta en diminutivo, todo sin enseñar los dientes (tienes que cubrirlos
+            completamente con los labios) con este formato (ej.) “Platanito llamando a manzanita”. En este juego el que pierde es
+            el que se ríe y muestra los dientes. ** Castigo: 10 sentadillas **</item>
+        <item>REGLA. Quien saca la carta pone una regla que no se puede romper hasta que saquen otro ocho. Algunos ejemplos serían
+            que nadie se puede sentar o no pueden dejar la mesa. ** Castigo: 10 abdominales **</item>
+        <item>7-PUM. Uno de los más complicados. El 7 Pum se trata de contar, pero sin decir nunca el número 7 ni sus múltiplos.
+            En lugar del 7 deberás decir Pum y el juego cambia de sentido. Comienza la persona que sacó la carta diciendo en voz alta
+            el número uno. Le sigue la persona de su derecha con el número dos y así sucesivamente hasta llegar al 7. El número 7 no
+            se dice, en su lugar la persona deberá decir “Pum” y cambiar el sentido de la numeración hacia la izquierda. Los números
+            que no se dicen son, por poner algunos, 7, 14, 17, 21, 27, 28… ** Castigo: 10 lagartijas **</item>
+        <item>UN LIMÓN MEDIO LIMÓN. Cada jugador se asigna un número. El primer jugador dice “unlimonmediolimon(X)limones” donde (X)
+            es el número del siguiente concursante elegido al azar por el primero. Sucesivamente sería por ejemplo:
+            “unlimonmediolimontreslimones” y el tres diría “treslimonesmediolimonsietelimones” y así hasta que uno se trabe.
+            Se tiene que hacer de forma ágil, es decir de corrido. ** Castigo: 20 sentadillas **</item>
+        <item>HACE LAGARTIJAS EL DE LA IZQUIERDA. La persona que está a la izquierda de quien sacó la carta deberá hacer lagartijas
+            (Obligatorias). ** Castigo:5 lagartijas **</item>
+        <item>HACE SENTADILLAS EL DE LA DERECHA. La persona que está a la derecha de quien sacó la carta deberá hacer lagartijas
+            (Obligatorias). ** Castigo: 10 sentadillas **</item>
+        <item>HACEN EJERCICIO TODOS. Todos hacen ejercicio (Obligatorio) ** Castigo: Tu escoges tu ejercicio (Abdominales, lagartijas
+            y sentadillas) **</item>
+        <item>HACES EJERCICIO TÚ. La persona que saque la carta, deberá hacer ejercicio (Obligatorio). ** Castigo: Tu escoges tu
+            ejercicio (Abdominales, lagartijas y sentadillas) **</item>
+        <item>¡TÚ ESCOGES EL RETO! La persona que saque la carta, deberá escoger el reto que deberá hacer otro participante del juego.
+            ¡Recuerda que tienen que ser ejercicios físicos! ** Castigo: Tu escoges tu ejercicio (Abdominales,
+            lagartijas y sentadillas) **</item>
+        </string-array>
+
 </resources>

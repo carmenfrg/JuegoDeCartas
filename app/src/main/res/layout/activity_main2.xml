@@ -22,12 +22,18 @@
             android:layout_width="364dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Se juega asi:
-Primero se establece una regla para cada valor de carta y se anota en la lista
-Se revuelven las cartas y se ponen boca abajo esparcidas en toda la mesa. El jugador en turno escoge una carta y la voltea. Se revisa en la lista qué castigo hay para ese valor de carta y despues se pasa el turno al siguiente jugador...
-
-Así hasta que se acaban todas las cartas wuuuuuuuuuu "
-            android:id="@+id/textView"
+            android:text=""
+            android:id="@+id/TextV"
             android:layout_weight="0.51" />
     </LinearLayout>
+
+    <Button
+        android:text="Regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="73dp"
+        android:id="@+id/regresa" />
 </RelativeLayout>
